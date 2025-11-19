@@ -11,7 +11,6 @@ async def convert_endpoint(
     target_format: str = Form(...)
 ):
     # endpoint to handle file conversion requests
-    # Conversion logic placeholder
 
     # Call conversion function
     output_path = await convert_file(file, target_format)

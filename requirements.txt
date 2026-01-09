@@ -39,4 +39,5 @@ aiofiles
 pytest-asyncio==0.24.0
 reportlab
 pdfminer.six
-python-docxpython-multipart
+python-docx
+python-multipart

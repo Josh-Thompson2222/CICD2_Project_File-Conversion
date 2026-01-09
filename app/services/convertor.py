@@ -15,7 +15,7 @@ from app.services.pdf_utils import txt_to_pdf
 ###
 pypandoc.ensure_pandoc_installed()
 
-UPLOAD_DIR = "converted_files"
+UPLOAD_DIR = "/app/converted_files"
 os.makedirs(UPLOAD_DIR, exist_ok=True)  # make sure directory exists
 
 def convert_to_txt(input_path: str, input_ext: str, output_txt_path: str):
